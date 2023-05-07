@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Smart Luogu Dark —— 智能洛谷深色版
-@version      0.0.20230329
+@version      0.0.20230507
 @namespace    userstyles.world/user/andycode3759
 @description  洛谷美化+深色模式，基于https://smart-luogu.github.io/
 @author       Andycode3759
@@ -11,7 +11,7 @@
     /*--------------------------用户自设部分--------------------------*/
     /*图片背景*/
     html > body {
-        background-image: url(https://w.wallhaven.cc/full/j3/wallhaven-j3m8y5.png) !important;
+        background-image: url(https://i.328888.xyz/2023/04/29/iKx0CF.png) !important;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -134,10 +134,10 @@
         background: rgba(32, 32, 32)
     }
     pre code[data-v-541237e4] {
-        background: rgba(16,16,16)
+        background: rgba(16, 16, 16)
     }
     pre[data-v-541237e4] {
-        background: rgba(16,16,16)
+        background: rgba(16, 16, 16)
     }
 
     .ops a {
@@ -157,11 +157,12 @@
         background: rgba(32, 32, 32);
         color: rgba(256, 256, 256)
     }
-    .marked[data-v-e5ad98f0] code, .marked[data-v-e5ad98f0] pre {
-        background: rgba(16,16,16)
+    .marked[data-v-e5ad98f0] code,
+    .marked[data-v-e5ad98f0] pre {
+        background: rgba(16, 16, 16)
     }
     div.detail.lfe-caption {
-        color:rgba(160,160,160)
+        color: rgba(160, 160, 160)
     }
 
     div.expand-tip.lfe-caption span {
@@ -172,6 +173,22 @@
     }
     .expand[data-v-245af330] {
         background: linear-gradient(rgba(0, 0, 0, 0), #000);
+    }
+    .inner-card[data-v-9f3e9b0a] {
+        background: rgba(32, 32, 32);
+        border-color: rgba(64, 64, 64);
+    }
+    .discuss[data-v-70cb3d5a] {
+        background: rgba(32, 32, 32);
+        border-color: rgba(64, 64, 64);
+    }
+    .lg-summary {
+        background: rgba(32, 32, 32);
+        color: rgba(250, 250, 250)
+    }
+    code {
+        background: rgba(64, 64, 64);
+        color: rgb(255, 142, 142)
     }
 
     /*题目分析栏*/
@@ -321,7 +338,7 @@
     /*--标题栏*/
     .main-container > .header-layout .background {
         display: none !important;
-        background: rgba(0,0,0)
+        background: rgba(0, 0, 0)
     }
 
     /*超链接*/
@@ -364,6 +381,7 @@
     }
     /*列表*/
     .lfe-h1[data-v-2dfcfd35] {
+        text-shadow: 4px 4px 4px rgba(60, 60, 60);
         animation: showtop 1s 1;
     }
     /*顶栏，低栏*/
